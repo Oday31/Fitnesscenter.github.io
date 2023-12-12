@@ -1,0 +1,127 @@
+body {
+  margin: 0px;
+}
+/* Navigation */
+.navigation ul{
+    list-style-type: none;
+    background-color: hsl(0, 0%, 25%);
+    padding: 0px;
+    margin: 0px;
+    overflow: hidden;
+}
+.navigation a{
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    display: block;
+    text-align: center;
+}
+.navigation a:hover{
+    background-color: hsl(0, 0%, 10%);
+}
+.navigation li{
+    float: right;
+}
+/* Sök */
+.container-input {
+    position: relative;
+}
+.input {
+    width: 150px;
+    padding: 10px 0px 7px 30px;
+    border-radius: 9999px;
+    border: solid 7px #333;
+    transition: all .2s ease-in-out;
+    outline: none;
+    opacity: 0.8;
+    padding-left: auto;
+}
+.container-input svg {
+    position: absolute;
+    top: 50%;
+    left: 10px;
+    transform: translate(0, -50%);  
+}
+  
+.input:focus {
+  opacity: 1;
+  width: 250px;
+}
+.Logo {
+  text-align: center;
+}
+.emoji {
+  height: 700px;
+  width: 1150px;
+  text-align: center;
+}
+.entry-title {
+  color: #000000;
+}
+.färge {
+  color: #000000;
+}
+.container.grid-container {
+  width: auto;
+}
+body .grid-container {
+  max-width: 1100px;
+}
+.grid-parent {
+  padding-left: 0;
+  padding-right: 0;
+}
+.grid-container {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1200px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+a, abbr, acronym, address, applet, big, blockquote, body, caption, cite, code, dd, del, dfn, div, dl, dt, em, fieldset, font, form, h1, h2, h3, h4, h5, h6, html, iframe, ins, kbd, label, legend, li, object, ol, p, pre, q, s, samp, small, span, strike, strong, sub, sup, table, tbody, td, tfoot, th, thead, tr, tt, ul, var {
+  border: 0;
+  margin: 0;
+  padding: 0;
+}
+div {
+  display: block;
+}
+body {
+  line-height: 1.5;
+}
+body, button, input, select, textarea {
+  font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+}
+body {
+  background-color: #efefef;
+  color: #3a3a3a;
+}
+body, button, input, select, textarea {
+  font-family: -apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+  font-weight: 400;
+  text-transform: none;
+  font-size: 17px;
+  line-height: 1.5;
+}
+
+
+.leftSide {
+  display: flex;
+  float: left;
+}
+
+.rightSide {
+  display: flex;
+  float: right;
+  flex-direction: column;
+  margin-left: auto;
+}
+
+.mainSection {
+  display: flex;
+  flex-direction: row;
+}
+
+.middle {
+  
+}
